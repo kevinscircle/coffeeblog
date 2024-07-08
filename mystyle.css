@@ -1,0 +1,77 @@
+/* p {
+    color:blue;
+} */
+
+body {
+    /* text-align: center; */
+}
+
+header {
+    background-image: url('./img/banner.jpg');
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white !important;
+    text-align: center;
+
+}
+
+h2 {
+    margin-inline-start: 10%;
+    font-weight: bolder;
+
+}
+
+div p {
+    font-weight: 510;
+    margin-inline-end: 10%;
+}
+
+button {
+    background-color: black !important;
+    color: white !important;
+    aspect-ratio: 1/0.4;
+
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+   
+}
+
+footer h1 {
+    padding-top: 5px;
+    margin-bottom: 1px;
+
+}
+
+ul {
+    list-style: none;
+    list-style: none;
+    margin-right: 30px;
+    /* to re center links  */
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 15px !important;
+    padding-bottom: 40px;
+
+}
+
+ul a {
+    color: white;
+    text-decoration: none;
+}
+
+.images-info {
+    margin-inline-start: 10%;
+}
+
+.bolder-p {
+    font-weight: bolder;
+}
