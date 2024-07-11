@@ -1,0 +1,216 @@
+/*#region*/
+
+/*#endregion*/
+
+/*#region global*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: arial;
+}
+
+p {
+    line-height: 2;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    max-width: 100%;
+}
+
+h2,
+h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*#endregion*/
+
+    /* font-weight: 510; */
+
+
+/*#region footer*/
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+
+}
+
+footer h1 {
+    padding-top: 5px;
+    margin-bottom: 1px;
+
+}
+
+.footer-links {
+    list-style: none;
+    margin-right: 30px;
+    /* to re center links  */
+}
+
+
+.footer-links li {
+    display: inline-block;
+    margin-right: 15px;
+    padding-bottom: 40px;
+
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+/*#endregion*/
+
+
+/*#region utilities*/
+
+
+.container {
+    width: 80%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+
+.btn-more {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 1px;
+    margin-bottom: 5px;
+    background-color: rgb(134, 46, 46);
+    letter-spacing: 2px;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.btn-details {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 1px;
+    margin-bottom: 5px;
+    background-color: rgb(134, 46, 46);
+    letter-spacing: 2px;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.text-b{
+    font-size: bold;
+}
+
+/*#endregion*/
+
+
+/*#region header*/
+header {
+    background-image: url('./img/banner.jpg');
+    height: 400px;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    color: white;
+    text-align: center;
+}
+
+.header-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* ask why menu wont work  */
+.menu a {
+    color: white;
+    margin-right: 30px;
+}
+
+/*#endregion*/
+
+
+/*#region main*/
+
+
+.main-flex {
+    display: flex;
+    
+    
+}
+
+.blog-item {
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+    /* margin-inline-start: 10%; */
+
+}
+
+
+/*#endregion*/
+
+/*#region section*/
+
+
+.course-item {
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+}
+
+.blog-container {
+    width: 65%;
+
+}
+
+.courses-container {
+    width: 35%;
+    text-align: left; 
+    /* check above line */
+    
+}
+
+/*#endregion*/
+
+
+/*#region about me*/
+
+.about-container {
+    width: 65%;
+    
+
+}
+.content-container {
+    width: 35%;
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    /* flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start; */
+}
+.content-container p {
+    margin-bottom: 30px;
+    
+}
+
+.about-container h2 {
+    text-align: right;
+}
+/*#endregion*/
